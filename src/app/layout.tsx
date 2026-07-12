@@ -5,6 +5,11 @@ export const metadata: Metadata = {
   title: "Facehood — The $HOOD social network",
   description:
     "Facehood is the social network for the $HOOD memecoin on Robinhood Chain. Put on the hood and join.",
+  icons: {
+    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+    apple: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+    shortcut: ["/favicon.svg"],
+  },
 };
 
 export default function RootLayout({

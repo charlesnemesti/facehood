@@ -52,17 +52,24 @@ export const INITIAL_POSTS: Post[] = [
     comments: [
       {
         id: "c1",
-        author: "Crypto Hood",
+        author: "0xHoodRat",
         avatar: "inverted",
-        text: "From GameStop to federal government broker. Vlad never stops.",
+        text: "bro went from halting GME to brokering the entire US newborn cohort 💀",
         time: "45m ago",
       },
       {
         id: "c2",
-        author: "Meme King",
+        author: "anon_bagholder",
         avatar: "magenta",
-        text: "My baby already has a bigger portfolio than I did at 25 😭",
+        text: "my nephew's trump account already outperforming my 2021 altcoin bags",
         time: "30m ago",
+      },
+      {
+        id: "c2b",
+        author: "ser_not_financial_advice",
+        avatar: "cyan",
+        text: "6M sign-ups pre-launch is insane. this is distribution on steroids",
+        time: "22m ago",
       },
     ],
   },
@@ -87,10 +94,17 @@ export const INITIAL_POSTS: Post[] = [
     comments: [
       {
         id: "c3",
-        author: "Diamond Hands",
+        author: "trench_goblin_47",
         avatar: "cyan",
-        text: "Facehood on Robinhood Chain when? 👀",
+        text: "Facehood on Robinhood Chain when? need a social layer for my USDG yield",
         time: "2h ago",
+      },
+      {
+        id: "c3b",
+        author: "0xArbDegen",
+        avatar: "green",
+        text: "L2 on Arbitrum + stock tokens 24/7... tradfi is cooked fr",
+        time: "1h ago",
       },
     ],
   },
@@ -115,17 +129,24 @@ export const INITIAL_POSTS: Post[] = [
     comments: [
       {
         id: "c4",
-        author: "WAGMI Hood",
+        author: "kalshi_killa",
         avatar: "magenta",
-        text: "Bernstein projects $586M in prediction revenue this year. Nearly 4x.",
+        text: "bernstein calling $586M prediction rev is wild. i'm all in on world cup contracts",
         time: "4h ago",
       },
       {
         id: "c5",
-        author: "HODL Gang",
+        author: "ngmi_but_betting",
         avatar: "green",
-        text: "The government shutdown contract moved more volume than post-season NFL 💀",
+        text: "gov shutdown contract > super bowl volume is the most 2026 thing ever",
         time: "3h ago",
+      },
+      {
+        id: "c5b",
+        author: "anon_poly_whale",
+        avatar: "inverted",
+        text: "vlad really said 'who am i to say you shouldn't trade that' lmaooo based",
+        time: "2h ago",
       },
     ],
   },
@@ -150,10 +171,17 @@ export const INITIAL_POSTS: Post[] = [
     comments: [
       {
         id: "c6",
-        author: "Pump It Up",
+        author: "hood_pnl_-94%",
         avatar: "cyan",
-        text: "Finally a social network with the right green",
+        text: "finally a social network with the correct shade of green. facebook could never",
         time: "5h ago",
+      },
+      {
+        id: "c6b",
+        author: "0xMemeLord",
+        avatar: "magenta",
+        text: "aped $HOOD at launch. no roadmap no utility pure hood energy",
+        time: "4h ago",
       },
     ],
   },
@@ -177,10 +205,17 @@ export const INITIAL_POSTS: Post[] = [
     comments: [
       {
         id: "c7",
-        author: "Moon Walker",
+        author: "ai_agent_pilled",
         avatar: "cyan",
-        text: "AI agents will out-trade hedge funds according to Vlad. Bullish.",
+        text: "vlad saying AI agents will out-trade hedge funds... i'm building one in my basement",
         time: "7h ago",
+      },
+      {
+        id: "c7b",
+        author: "gold_subscriber_0x",
+        avatar: "inverted",
+        text: "Q1 numbers looking thicc. gold subs ATH is the real alpha",
+        time: "6h ago",
       },
     ],
   },
@@ -202,7 +237,22 @@ export const INITIAL_POSTS: Post[] = [
       imageUrl:
         "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/07/09/Robinhood-Logo-Displayed-On-A-Smartphone.jpg",
     },
-    comments: [],
+    comments: [
+      {
+        id: "c6c",
+        author: "app_store_degen",
+        avatar: "green",
+        text: "top of app store in a month is crazy. normies are onboarding faster than crypto twitter",
+        time: "9h ago",
+      },
+      {
+        id: "c6d",
+        author: "double_seed_anon",
+        avatar: "magenta",
+        text: "RH matching treasury $1k for employee kids... wish i worked there ngl",
+        time: "8h ago",
+      },
+    ],
   },
   {
     id: "7",
@@ -225,17 +275,24 @@ export const INITIAL_POSTS: Post[] = [
     comments: [
       {
         id: "c8",
-        author: "Diamond Hands",
+        author: "gme_veteran_2021",
         avatar: "cyan",
-        text: "Still hodling GME tho",
+        text: "still holding GME from the congressional hearing era. vlad owes me a beer",
         time: "11h ago",
       },
       {
         id: "c9",
-        author: "Vlad Tenev",
+        author: "bny_mellon_truther",
         avatar: "green",
-        text: "BNY Mellon partnership exists precisely so people trust the ops. We learned.",
+        text: "BNY partnership is the 'we learned our lesson' arc. smart move tbh",
         time: "10h ago",
+      },
+      {
+        id: "c9b",
+        author: "0xCharacterDev",
+        avatar: "inverted",
+        text: "2021: villain. 2026: govt broker + chain founder. netflix series when?",
+        time: "9h ago",
       },
     ],
   },
@@ -256,6 +313,21 @@ export const INITIAL_POSTS: Post[] = [
       imageUrl:
         "https://i.insider.com/698bf388d3c7faef0ece0ba2?width=1200&format=jpeg",
     },
-    comments: [],
+    comments: [
+      {
+        id: "c10",
+        author: "yield_farmer_69",
+        avatar: "green",
+        text: "7% on USDG with self-custody? finally yield that isn't a rug pull",
+        time: "13h ago",
+      },
+      {
+        id: "c11",
+        author: "vlad_or_satoshi",
+        avatar: "magenta",
+        text: "debating if vlad is zuckerberg of finance or satoshi of retail in the comments rn",
+        time: "12h ago",
+      },
+    ],
   },
 ];

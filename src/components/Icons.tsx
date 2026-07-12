@@ -1,10 +1,18 @@
-export function FacehoodLogo({ className = "" }: { className?: string }) {
+export function FacehoodLogo({
+  className = "",
+  theme = "dark",
+}: {
+  className?: string;
+  theme?: "dark" | "light";
+}) {
+  const faceColor = theme === "dark" ? "text-white" : "text-[#1c1e21]";
+
   return (
     <span
       className={`inline-flex items-center font-bold lowercase leading-none tracking-tight ${className}`}
       style={{ fontFamily: "Helvetica, Arial, sans-serif", fontSize: "32px" }}
     >
-      <span className="text-white">face</span>
+      <span className={faceColor}>face</span>
       <span className="text-[#d1ff00]">hood</span>
     </span>
   );

@@ -30,7 +30,6 @@ function newId() {
 export function Feed() {
   const [posts, setPosts] = useState<Post[]>(INITIAL_POSTS);
   const [likedIds, setLikedIds] = useState<Set<string>>(new Set());
-  const [openComments, setOpenComments] = useState<Set<string>>(new Set());
   const [composing, setComposing] = useState(false);
   const [newPostText, setNewPostText] = useState("");
   const [toast, setToast] = useState<string | null>(null);
@@ -51,15 +50,6 @@ export function Feed() {
           p.id === id ? { ...p, likes: p.likes + (wasLiked ? -1 : 1) } : p
         )
       );
-      return next;
-    });
-  }
-
-  function toggleComments(id: string) {
-    setOpenComments((prev) => {
-      const next = new Set(prev);
-      if (next.has(id)) next.delete(id);
-      else next.add(id);
       return next;
     });
   }
@@ -87,7 +77,6 @@ export function Feed() {
         p.id === postId ? { ...p, comments: [...p.comments, comment] } : p
       )
     );
-    setOpenComments((prev) => new Set(prev).add(postId));
   }
 
   function publishPost() {
@@ -242,9 +231,7 @@ export function Feed() {
           key={post.id}
           post={post}
           liked={likedIds.has(post.id)}
-          showComments={openComments.has(post.id)}
           onLike={() => toggleLike(post.id)}
-          onToggleComments={() => toggleComments(post.id)}
           onShare={() => sharePost(post.id)}
           onAddComment={(text) => addComment(post.id, text)}
         />
