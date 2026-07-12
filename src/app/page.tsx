@@ -1,6 +1,7 @@
 import { Header } from "@/components/Header";
 import { LeftSidebar, RightSidebar } from "@/components/LeftSidebar";
 import { Feed } from "@/components/Feed";
+import { FixedBrandLogo } from "@/components/FixedBrandLogo";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Feed />
         <RightSidebar />
       </div>
+      <FixedBrandLogo />
     </div>
   );
 }
